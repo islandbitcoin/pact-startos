@@ -1,10 +1,10 @@
 import { IMPOSSIBLE, VersionInfo } from '@start9labs/start-sdk'
 
 export const current = VersionInfo.of({
-  version: '0.15.1:0',
+  version: '0.16.0:0',
   releaseNotes: {
     en_US:
-      'pactd 0.15.1 — form bonds from the Web UI. Copy your bond address, paste theirs, choose private or public, and accept inbound proposals from the new inbox — the full bond lifecycle with no command line. Private is the default.',
+      'pactd 0.16.0 — Reaffirm. Mutual bonds get a one-tap Reaffirm action: choose the bond again, on the record. Reaffirmations follow the bond\'s channel (private bonds reaffirm privately) and the bond list shows both sides\' latest — proof the relationship lasted, not just started.',
   },
   migrations: {
     up: async ({ effects }) => {},
