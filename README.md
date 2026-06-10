@@ -26,8 +26,9 @@ source build.
 
 ## Build the `.s9pk`
 
-Requires the StartOS dev toolchain — **`start-cli`** (a Rust binary; see
-[Installing the SDK](https://docs.start9.com/latest/developer-guide/sdk/installing-the-sdk)),
+Requires the StartOS dev toolchain — **`start-cli`** (a Rust binary:
+`curl -fsSL https://start9.com/start-cli/install.sh | sh`, or grab a prebuilt
+`start-cli_<arch>-<os>` from the [start-os releases](https://github.com/Start9Labs/start-os/releases)),
 **Docker**, **Node/npm**, and `jq`.
 
 ```bash
