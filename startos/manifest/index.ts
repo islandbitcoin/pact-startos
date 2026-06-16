@@ -7,7 +7,7 @@ export const manifest = setupManifest({
   license: 'Apache-2.0',
   packageRepo: 'https://github.com/bobodread876/pact',
   upstreamRepo: 'https://github.com/bobodread876/pact',
-  marketingUrl: 'https://github.com/bobodread876/pact',
+  marketingUrl: 'https://bobodread876.github.io/pact-site/',
   donationUrl: null,
   description: { short, long },
   volumes: ['main'],
