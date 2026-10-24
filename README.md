@@ -115,7 +115,7 @@ Reveals the token the daemon generated.
 
 - **What it changes:** nothing. It mounts the volume **read-only** in a temporary container and reads the file.
 - **Runnable at any status**, including stopped.
-- **If the service has never started**, it says so instead of showing a blank, the token does not exist until the daemon creates it.
+- **If the service has never started**, it says so instead of showing a blank. The token does not exist until the daemon creates it.
 - The result is masked and copyable, and the message explains both ways to use it: pasting it into the locked screen, or setting it for an agent.
 
 ### Rotate Access Token
